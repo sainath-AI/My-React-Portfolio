@@ -28,6 +28,20 @@
   justify-content: center;
   margin-top: 20px;
 }
+
+#fb-icon {
+  border-radius: 2.6rem;
+  cursor: pointer;
+  /* display: inline-block;
+  position: relative;
+  text-align: center; */
+  /* -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; */
+  pointer-events: none;
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {

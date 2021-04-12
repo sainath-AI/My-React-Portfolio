@@ -5,8 +5,7 @@ import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import { projectsHeader } from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
+import { projectsHeader, projectsData } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -44,8 +43,8 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
+          {projectsData.myProjects.map((project) => {
+            return <GithubRepoCard project={project} theme={theme} />;
           })}
         </div>
         <Button
