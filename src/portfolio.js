@@ -22,7 +22,7 @@ const settings = {
 const seo = {
   title: "Subham's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate software engineer who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
     title: "Subham Raoniar Portfolio",
     type: "website",
@@ -36,7 +36,8 @@ const greeting = {
   logo_name: "SubhamRaoniar",
   nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate Software Engineer with 4+ years of experience in Software Industry. Skilled in designing, building & maintaining highly scalable and available software applications.",
+  secondSubtitle: "Love to learn new technologies everyday and apply them through building new projects.",
   resumeLink:
     "https://1drv.ms/w/s!AgouOYIBgjsMpCKSpTqIQvycOJW7?e=6kOg5F",
   portfolio_repository: "https://github.com/SubhamRaoniar28/MyPortfolio",
@@ -96,8 +97,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Developing highly scalable and maintainable REST APIs using Microservice Architecture",
+        "⚡ Creating application backend using Java, Spring Boot along with integration of databases such as Oracle SQL & MongoDB",
       ],
       softwareSkills: [
         {
@@ -199,8 +200,8 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP",
+        "⚡ Hosting and maintaining dynamic web applications, wordpress or static websites on virtual machine instances",
+        "⚡ Setting up application backend in Firebase BaaS, Cloud Firestore",
       ],
       softwareSkills: [
         {
@@ -234,12 +235,11 @@ const skills = {
       ],
     },
     {
-      title: "Learning Data Science & AI",
+      title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ As mentioned above, I like to learn new technologies and as a developer everyone should be familiar with latest trending tools & technologies. Data Science and Machine Learning is popular & trending nowadays, and I found it quite interesting.",
+        "⚡ So far, I've done a few courses related to the same from Coursera, such as \"Python for Everybody Specialization\", \"Introduction to Data Science in Python\", and learned data computing & manipulating libraries such as Numpy & Pandas.",
       ],
       softwareSkills: [
         {
@@ -327,9 +327,9 @@ const degrees = {
       alt_name: "JGEC Logo",
       duration: "2012 - 2015",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Graduated with 7.72 DGPA.",
+        "⚡ I have studied basic software engineering subjects like Java, DS, Algorithms, Computer Architecture, Operating System, DBMS, Computer Network etc.",
+        "⚡ Apart from this, I have done courses on Full Stack Development and Data Science.",
       ],
       website_link: "https://jgec.ac.in/",
     },
@@ -340,9 +340,9 @@ const degrees = {
       alt_name: "Dumkal Polytech. Logo",
       duration: "2009 - 2012",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Graduated with First Class Distinction with a score of 80 Percentile.",
+        "⚡ I have studied electronics engineering subjects like Analog & Digital Electronics, Microprocessor, Communication Engineering and basic computer science subjects such as C Programming, Computer Network etc.",
+        "⚡ Apart from this, I had made an AM (Amplitude Modulation), FM (Frequency Modulation) & PM (Phase Modulation) Kit in my final year project.",
       ],
       website_link: "http://dumkalpolytechnic.in/",
     },
@@ -467,45 +467,62 @@ const experience = {
   title: "Work Experience",
   subtitle: "",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with one of India's largest IT company as a software developer for more than 4 years. Over these years I've worked on multiple large scale projects for different client companies.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Work & Projects",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
+          title: "System Engineer",
+          company: "Tata Consultancy Services Limited",
           company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          logo_path: "TCS-logo.png",
+          duration: "October 2015 - June 2020",
+          location: "Bangalore, Karnataka",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "",
           color: "#0879bf",
+          projects: [
+            {
+              projectName: "Business Deposits",
+              clientName: "Client - U.S Bank",
+              projectDescription: "Business Deposits is a complex web application made for small businesses and entrepreneurs so that they can open their business account in U.S. Bank as per their need. Created multiple web services, developed controller, service, repository classes and wrote business logic into service class."
+            },
+            {
+              projectName: "Credit Bridge Core Services",
+              clientName: "Client - Wells Fargo Bank",
+              projectDescription: "Credit Bridge is an intranet web application for Wells Fargo bank to audit various database tables within the bank. Built the application from scratch, starting from creating RESTful APIs, writing unit testcases for those services, till application build and deployment."
+            },
+            {
+              projectName: "Intel Customized Security Solution (McAfee)",
+              clientName: "Client - Intel",
+              projectDescription: "McAfee is well known for its various anti-virus products and providing security solutions throughout the world. Customized, tested (both automation and manual), and deployed their core anti-virus products based on the requirements of their around 100s of OEM (such as DELL, HP, ASUS) and non-OEM customers and delivered zero defect products to production."
+            },
+          ]
         },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
+        // {
+        //   title: "Android and ML Developer",
+        //   company: "Muffito Incorporation",
+        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
+        //   logo_path: "muffito_logo.png",
+        //   duration: "May 2018 - Oct 2018",
+        //   location: "Pune, Maharashtra",
+        //   description:
+        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+        //   color: "#9b1578",
+        // },
+        // {
+        //   title: "Android Developer",
+        //   company: "FreeCopy Pvt. Ltd.",
+        //   company_url: "https://www.linkedin.com/company/freecopy/about/",
+        //   logo_path: "freecopy_logo.png",
+        //   duration: "Nov 2017 - Dec 2017",
+        //   location: "Ahmedabad, Gujarat",
+        //   description:
+        //     "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+        //   color: "#fc1f20",
+        // },
       ],
     },
     // {
@@ -570,7 +587,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack Web Applications and deploy them to cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -581,8 +598,8 @@ const projectsData = {
       name: "My Portfolio",
       description: "The complete portfolio website hosted using github pages (gh-pages). Visit the website here : ",
       createdAt: "2021-03-06",
-      liveUrl: "https://confusion-restaurant-95beb.web.app/home",
-      gitUrl: "https://github.com/SubhamRaoniar28",
+      liveUrl: "https://www.subhamraoniar.com/",
+      gitUrl: "https://github.com/SubhamRaoniar28/My-React-Portfolio",
     },
     {
       id: 2,
@@ -614,8 +631,8 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "",
+      "I like to write blogs to explain solutions of digital & technical problems in much simpler way.",
+    link: "https://digital-techie.blogspot.com/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {

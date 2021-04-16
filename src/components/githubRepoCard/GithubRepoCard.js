@@ -5,10 +5,10 @@ import { Fade } from "react-reveal";
 import Button from "../../components/button/Button";
 
 export default function GithubRepoCard({ project, theme }) {
-  function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+  // function openRepoinNewTab(url) {
+  //   var win = window.open(url, "_blank");
+  //   win.focus();
+  // }
 
   return (
     <div id="project-card-div">
