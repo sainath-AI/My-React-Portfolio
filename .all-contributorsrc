@@ -6,6 +6,17 @@
   "commit": false,
   "contributors": [
     {
+      "login": "SubhamRaoniar28",
+      "name": "Subham Raoniar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41485604?v=4",
+      "profile": "https://subhamraoniar.com",
+      "contributions": [
+        "code",
+        "design",
+        "ideas"
+      ]
+    },
+    {
       "login": "ashutosh1919",
       "name": "Ashutosh Hathidara",
       "avatar_url": "https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4",

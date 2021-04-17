@@ -22,11 +22,11 @@ const settings = {
 const seo = {
   title: "Subham's Portfolio",
   description:
-    "A passionate software engineer who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate Software Engineer with 4+ years of experience in Software Industry. Skilled in designing, building & maintaining highly scalable and available software applications.",
   og: {
     title: "Subham Raoniar Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://subhamraoniar.com/",
   },
 };
 
@@ -40,7 +40,7 @@ const greeting = {
   secondSubtitle: "Love to learn new technologies everyday and apply them through building new projects.",
   resumeLink:
     "https://1drv.ms/w/s!AgouOYIBgjsMpCKSpTqIQvycOJW7?e=6kOg5F",
-  portfolio_repository: "https://github.com/SubhamRaoniar28/MyPortfolio",
+  portfolio_repository: "https://github.com/SubhamRaoniar28",
 };
 
 const socialMediaLinks = [
@@ -476,7 +476,7 @@ const experience = {
         {
           title: "System Engineer",
           company: "Tata Consultancy Services Limited",
-          company_url: "https://legatohealthtech.com/",
+          company_url: "https://www.tcs.com/",
           logo_path: "TCS-logo.png",
           duration: "October 2015 - June 2020",
           location: "Bangalore, Karnataka",
@@ -501,28 +501,6 @@ const experience = {
             },
           ]
         },
-        // {
-        //   title: "Android and ML Developer",
-        //   company: "Muffito Incorporation",
-        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-        //   logo_path: "muffito_logo.png",
-        //   duration: "May 2018 - Oct 2018",
-        //   location: "Pune, Maharashtra",
-        //   description:
-        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-        //   color: "#9b1578",
-        // },
-        // {
-        //   title: "Android Developer",
-        //   company: "FreeCopy Pvt. Ltd.",
-        //   company_url: "https://www.linkedin.com/company/freecopy/about/",
-        //   logo_path: "freecopy_logo.png",
-        //   duration: "Nov 2017 - Dec 2017",
-        //   location: "Ahmedabad, Gujarat",
-        //   description:
-        //     "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-        //   color: "#fc1f20",
-        // },
       ],
     },
     // {
@@ -557,26 +535,26 @@ const experience = {
     //   title: "Volunteerships",
     //   experiences: [
     //     {
-    //       title: "Google Explore ML Facilitator",
-    //       company: "Google",
-    //       company_url: "https://about.google/",
-    //       logo_path: "google_logo.png",
-    //       duration: "June 2019 - April 2020",
-    //       location: "Hyderabad, Telangana",
+    //       title: "",
+    //       company: "",
+    //       company_url: "",
+    //       logo_path: "",
+    //       duration: "",
+    //       location: "",
     //       description:
-    //         "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-    //       color: "#4285F4",
+    //         "",
+    //       color: "",
     //     },
     //     {
-    //       title: "Developer Program Member",
-    //       company: "Github",
-    //       company_url: "https://github.com/",
-    //       logo_path: "github_logo.png",
-    //       duration: "July 2019 - PRESENT",
-    //       location: "Work From Home",
+    //       title: "",
+    //       company: "",
+    //       company_url: "",
+    //       logo_path: "",
+    //       duration: "",
+    //       location: "",
     //       description:
-    //         "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-    //       color: "#181717",
+    //         "",
+    //       color: "",
     //     },
     //   ],
     // },
