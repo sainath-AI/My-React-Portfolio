@@ -20,7 +20,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Subham's Portfolio",
+  title: "Sainath's Portfolio",
   description:
     "A passionate Software Engineer with 4+ years of experience in Software Industry. Skilled in designing, building & maintaining highly scalable and available software applications.",
   og: {
