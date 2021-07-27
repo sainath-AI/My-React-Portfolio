@@ -24,7 +24,7 @@ const seo = {
   description:
     "A passionate Software Engineer with 4+ years of experience in Software Industry. Skilled in designing, building & maintaining highly scalable and available software applications.",
   og: {
-    title: "Subham Raoniar Portfolio",
+    title: "sainath reddy Portfolio",
     type: "website",
     url: "https://subhamraoniar.com/",
   },
